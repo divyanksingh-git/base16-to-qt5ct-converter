@@ -34,4 +34,3 @@ for i in theme_list:
     
         with open(f'{generated_dir}base16-qtct-{i.replace('.yaml','')}.conf','wt') as conv:
             conv.write(converted)
-#test
